@@ -1,0 +1,308 @@
+/*@page {
+    size: 908px 681px;
+    margin: 0;
+}
+*/
+@page {
+    size: 1210px 681px;
+    margin: 0;
+}
+
+@media print {
+    .remark-slide-scaler {
+        width: 100% !important;
+        height: 100% !important;
+        transform: scale(1) !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+}
+
+/*
+.remark-slide-content {
+    font-family: "HelveticaNeueCyr";
+}
+
+.remark-slide-content strong {
+    font-family: "HelveticaNeueCyrBold";
+}
+*/
+
+h1 code.remark-inline-code, h2 code.remark-inline-code, h3 code.remark-inline-code {
+    font-size: inherit !important;
+    margin: 0 0.2em !important;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'PTM55F';
+    font-size: 24px;
+    line-height: 1.15em;
+    /*background-color: #bfbfbf;*/
+}
+
+h1 .remark-inline-code, h2 .remark-inline-code, h3 .remark-inline-code {
+    line-height: 0.85em; /* fix for jumping header */
+}
+
+.hljs.remark-code, .hljs.remark-inline-code {
+    /*background-color: #bfbfbf;*/
+}
+
+.clear {
+    clear: both;
+}
+
+.remark-code-line {
+    min-height: 1.125em;
+}
+
+.not .remark-code-line-highlighted, .not .remark-code-span-highlighted {
+    background-color: rgba(255, 0, 0, 0.4)
+}
+
+.small {
+    font-size: 24px;
+    line-height: 1.15em;
+}
+
+.smaller {
+    font-size: 20px;
+    line-height: 1.15em;
+}
+
+.very-small pre code {
+    font-size: 8px;
+    line-height: 1.15em;
+}
+
+/* new font-sizes */
+.remark-slide-content { font-size: 26px; padding: 20px 50px; }
+.remark-slide-content h1 { font-size: 40px; }
+.remark-slide-content h2 { font-size: 28px; }
+.remark-slide-content h3 { font-size: 26px; }
+.remark-slide-content p  { margin: 15px 0; }
+.remark-slide-number     { font-size: 20px; }
+/* new font-sizes */
+
+.remark-inline-code {
+    /*background-color: #bfbfbf;*/
+    padding-left: 0.05em;
+    padding-right: 0.05em;
+    margin-left: -0.05em;
+    margin-right: -0.05em;
+}
+
+.big {
+    font-size: 1.5em;
+}
+
+.red {
+    color: red;
+}
+
+.note {
+    display:block;
+    font-size: 18px;
+}
+
+.normal-width img {
+     width: initial;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.absolute.contain img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*.hidden { background-color: silver; }*/
+/*.delete { background-color: #ffaaaa; }*/
+
+.hljs .hljs-comment { font-style: normal !important; }
+
+.footer {
+    /* ??? */
+    position: absolute;
+    bottom: 12px;
+    left: 128px;
+    font-size: 24px;
+}
+
+.left {
+    clear:both;
+    float: left;
+    width: 49%;
+}
+
+.right {
+    float: right;
+    text-align: left;
+    width: 49%;
+}
+.right * { text-align: left;}
+.right ~ p { clear: both; }
+.right:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*.huge1 {
+    font-size: 80px;
+}
+.huge {
+    font-size: 80px;
+    font-family: 'Apple Color Emoji';
+}
+*/
+
+.small .remark-code {
+    font-size: 16px !important;
+}
+
+.pre-no-margin pre {
+    margin: 0;
+}
+
+.pre-margin-5 pre {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/*.no-color * * {
+    color: black !important;
+}
+*/
+
+/*.hljs-symbol, .hljs-string, .hljs-keyword, .hljs-special, .hljs-prompt*/
+/*.hljs-comment, .hljs-header, .hljs-javadoc*/
+
+.over-hidden code {
+    overflow: hidden !important;
+}
+
+code {
+    overflow: hidden !important;
+}
+
+.wide-image img {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.tall-image img {
+    min-height: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+.tall-image-70 img {
+    min-height: 70%;
+    width: auto;
+}
+
+.normal img {
+    width: initial;
+}
+
+.highlighted code {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+.highlighted-red code {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.blur {
+    filter: blur(3px);
+    background: #bfbfbf;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+/*
+.hljs-github .hljs-comment, .hljs-github .diff .hljs-header, .hljs-github .hljs-javadoc {
+    color: #776;
+    font-style: italic;
+}
+
+.not .hljs .remark-code-line-highlighted .hljs-string, .not .hljs .remark-code-line-highlighted .hljs-doctag {
+    color: #931 !important;
+}
+
+.not .hljs .remark-code-span-highlighted, .not .hljs .remark-code-span-highlighted {
+    color: #831 !important;
+}
+*/
+
+.no-inner-margin *:first-of-type{
+    margin-top:0;
+}
+
+.remark-code-span-highlighted {
+    margin-left: -2px !important;
+    margin-right: -2px !important;
+}
+
+.left *:first-of-type{
+    margin-top:0;
+}
+.right *:first-of-type{
+    margin-top:0;
+}
+/*
+.background-black {
+    background-color: black;
+}
+*/
+
+.remark-container.remark-presenter-mode .remark-notes-area {
+    display: none;
+}
+
+.remark-container.remark-presenter-mode .remark-slides-area {
+
+    top: 0;
+    left: 1%;
+    /*height: 47.25%;*/
+    /*width: 48%;*/
+    width: 60%;
+    /*height: 100%;*/
+    bottom: 0;
+    height: 100%;
+}
+
+.remark-container.remark-presenter-mode .remark-preview-area {
+    top: 1%;
+    right: 1%;
+    opacity: 0.8;
+    position: absolute;
+    height: 47.25%;
+    width: 37%;
+    left:auto;
+    /*width: 100%;*/
+}
+.remark-preview-area .remark-slide-container {
+    transform-origin: 0;
+    transform: scale(0.60);
+    left:0;
+}

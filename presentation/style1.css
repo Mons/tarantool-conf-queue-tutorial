@@ -1,0 +1,68 @@
+h1, h2, h3 {
+	font-family: "PFBeauSansPro-SeBold", 'Arial';
+}
+
+.remark-slide-content {
+	font-family: "PFBeauSansPro", 'Arial';
+	/*background-image: url('bg/slide.png');*/
+	/*background-size: 100% 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.remark-slide-content.first {
+	background-image: url('bg/1.jpg');
+	background-size: contain;
+	color: #333;
+}
+.first .content {
+
+}
+
+.first h1 {
+	color: #ed4043;
+	font-size: 52px;
+	line-height: initial;
+}
+.first h2, .first h3 {
+	color: #333;
+}
+
+.remark-slide-number  {
+	font-size: 20px;
+	/*bottom: 32px;*/
+	top: 5px;
+	opacity: .5;
+	position: absolute;
+	/*left: 70px;*/
+	right: 5px;
+	display: none;
+}
+
+.red {
+	color: #ed4043;
+}
+
+.highlight {
+	color: #f28388;
+}
+
+pre {
+	margin: 10px 0;
+}
+
+
+.remark-code-line-highlighted, .remark-code-span-highlighted {
+	background-color: rgba(180, 0, 0, 0.5);
+}
+
+.extra-small code {
+	font-size: 9px;
+}
+
+.extra-extra-small code {
+	font-size: 5px;
+}
+
+.extra-huge {
+	font-size: 120px;
+}

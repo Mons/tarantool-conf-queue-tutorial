@@ -1,0 +1,42 @@
+/*
+ul margin before/after: 24px;
+*/
+
+li { line-height: 1.4em; }
+
+/*li p { display: inline-block; }*/
+li pre { margin: 0; }
+
+@media screen {
+    ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 1.6em;
+        text-indent: -1.6em;
+    }
+
+    ul li:before {
+        content: "🐪";
+        font-size: 0.8em;
+        line-height: 1.5em;
+        display: block;
+        float: left;
+        width: 1.6em;
+        color: #ff0000;
+    }
+
+    ul ul {
+        list-style: disc;
+        padding-left: 1em;
+        text-indent: 0em;
+    }
+
+    ul ul li:before {
+        content: "";
+        font-size: initial;
+        display: initial;
+        float: initial;
+        width: auto;
+        color: initial;
+    }
+}
